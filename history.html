@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yandere Simulator in 2 words site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Inter';
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+        }
+
+        main {
+            position: fixed;
+            overflow-y: auto;
+            height: 100%;
+            width: calc(100% - 85px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+            padding-top: 120px; padding-bottom: 100px;
+            right: 0;
+        }
+
+        header {
+            position: fixed;
+            background: white;
+            left: 0; top: 0; bottom: 0;
+            width: 85px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 28px;
+            border-right: 1px solid #DDDDDD;
+
+            & a {
+                font-family: 'Oswald';
+                color: #8B8289;
+                width: auto;
+                text-decoration: none;
+                font-size: 25px;
+                writing-mode: vertical-rl;
+                transform: rotate(180deg);
+                text-align: center;
+                white-space: nowrap;
+
+                &.active {
+                    color: #EE4D8C;
+                }
+            }
+        }
+
+        .hero {
+            padding-bottom: 50px;
+            width: 90%;
+            border-bottom: 1px solid #BBBBBB;
+            margin-bottom: 50px;
+
+            & h1 {
+                font-size: 60px;
+                color: black;
+                font-family: 'Oswald';
+                font-weight: 450;
+                width: 60%;
+                line-height: 1.1;
+            }
+        }
+
+        .mainblock {
+            width: 90%;
+            border: 1px solid #BBBBBB;
+            border-left: 0; border-right: 0;
+            border-top: 0;
+            display: flex;
+            box-sizing: border-box;
+
+            & .left {
+                padding: 55px;
+                flex: 1;
+                & h1 { font-size: 40px; }
+                & p { font-size: 17px; color: #837A81; margin-top: 20px; }
+            }
+
+            & .date {
+                padding: 55px 0 55px 0;
+                height: 100%;
+                max-width: 125px;
+                & p { font-size: 17px; color: #EE4D8C; font-weight: 600; margin-top: 20px; }
+            }
+
+            & .right {
+                padding: 55px;
+                height: 100%;
+                max-width: 40%;
+                min-width: 333px;
+                background: #EE4D8C;
+                & * { color: #ffffff; }
+                & h1 { font-size: 80px; }
+                & h2 { font-size: 30px; }
+                & p { font-size: 17px; margin-top: 20px; }
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">About the game</a>
+        <a class="active" href="history.html">History</a>
+        <a href="tutorials.html">Tutorials</a>
+        <a href="characters.html">Characters</a>
+    </header>
+    <main>
+        <div class="hero">
+            <h1>From motivation to play</h1>
+        </div>
+
+        <div style="border-top: 1px solid #BBBBBB;" class="mainblock">
+            <div class="date"><p>October 24</p></div>
+            <div class="left">
+                <h1>Alpha v6.0 MAJOOOOR MAJOR-MAJOR UPDATE!!!</h1>
+                <p>It was an incredibly difficult and expensive upgrade!!<br>
+                    Alpha 6.0!<br>
+                    <br>
+                    1. A setup using a knife, a box, and gloves<br>
+
+                    2. has been added! A KIDNAPPING has been ADDED, as well as a murder-suicide!<br>
+
+                    3. Clubs have been added! now you can join them and everyone has their own advantages!<br>
+
+                    4. There are also added consequences for clubs.<br>
+
+                    5. The functionality of the note has been redesigned, now you can assign a place.<br>
+
+                    6. Some students won't take your word for it.<br>
+
+                    7. Added the blank ending of "Genocide"<br>
+
+                    8. Added the ending of the school closure<br>
+
+                    9. Leveling benefits have been added<br>
+
+                    10. A loss reserve with a low reputation has been added.<br>
+
+                    11. The ability to offer assistance to students at a meeting has been added.<br>
+
+                    12. The game has been optimized<br>
+
+                    13. The bugs have been fixed<br>
+
+                    14. The code refactor has passed</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>October 21</p></div>
+            <div class="left">
+                <h1>Alpha v3.0.0 Update!</h1>
+                <p>athletes (2 new students), sinks were added, the code was refactored, many bugs were fixed, an INFO-CHAN was ADDED, notes were added, poisoning was added.
+                    <br><br>
+                    By the way, more about "Pansu". They are still used in the game as the currency for the Info-Chan. However, In2words has no plans yet to add the functionality of photographing and sending the "pansu" to info-chan at all. Even if it's important for the gameplay. BUT! The possibility of adding this to the game without demonstrating the "Pansu" is not excluded</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>October 18</p></div>
+            <div class="left">
+                <h1>Alpha v1.1.0 Major Update!</h1>
+                <p>Consuls were added, bugs were fixed and.... THE ENGINE WAS COMPLETELY REWRITTEN!!! FPS increased from 15 to 100!</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>September 19</p></div>
+            <div class="left">
+                <h1>Alpha v1.0.5 Update!</h1>
+                <p>Bugs with reputation, atmosphere, panicking, and losing have been fixed. An enemy system has been added. The exit from the game has been fixed.</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>September 17</p></div>
+            <div class="left">
+                <h1>Alpha v1.0 Done</h1>
+                <p>Students info" was added. Game was published.</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>September 14-16</p></div>
+            <div class="left">
+                <h1>Alpha v1.0 Development</h1>
+                <p>Many bugs have been fixed, the police have been improved, and teacher reactions have been fully added. The first basic phone.</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>September 13</p></div>
+            <div class="left">
+                <h1>Alpha v1.0 Development</h1>
+                <p>The school atmosphere has been added, the reaction of students has been improved, bugs have been fixed, the system of getting rid of evidence has been fixed, the POLICE have been ADDED, the losing screen has been added</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>September 12 (11:45 PM)</p></div>
+            <div class="left">
+                <h1>Alpha v1.0 Development</h1>
+                <p>Body bags, an incinerator, and the destruction of evidence in general were added. fixed bugs</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>September 12 (10:30 AM)</p></div>
+            <div class="left">
+                <h1>Alpha v1.0 Development</h1>
+                <p>added reactions of students to the murder/blood/our behavior/corpses, etc; fixed critical bugs. Added a new goal: to implement bags and incineration of weapons/corpses</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>September 11</p></div>
+            <div class="left">
+                <h1>Alpha v1.0 Development</h1>
+                <p>Teachers and a knowledge-level progression system (study time) were added; a placeholder task was implemented for everyone; a library was added; the option to go home was introduced; the menu was redesigned; the credits were modified; and save functionality (New Game/Continue) was added; critical bugs was fixed.</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>September 9-10</p></div>
+            <div class="left">
+                <h1>Alpha v1.0 Development</h1>
+                <p>Social activity was added. Compliments, apologies, assignments. The artist has a special task. There was an opportunity to change clothes. A baseball bat was added</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>September 7-8</p></div>
+            <div class="left">
+                <h1>Alpha v1.0 Development</h1>
+                <p>selection of weapons, murder, sanity and reputation. Optimization. Changing the design of the button bars. different student design.</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>September 5-6</p></div>
+            <div class="left">
+                <h1>Alpha v1.0 Development</h1>
+                <p>the daily routine of all AI is ready, calendar, disclaimer, bag and gym are added, the first appearance of weapons</p>
+            </div>
+        </div>
+        <div class="mainblock">
+            <div class="date"><p>September 1-4</p></div>
+            <div class="left">
+                <h1>Alpha v1.0 Development</h1>
+                <p>the next AI students, the first additions to the cutscene, the half-finished school, the filling of some clubs, the creation of benches behind the school, optimization, student base, hours and phases of the day, the creation of a quick inventory</p>
+            </div>
+        </div>
+        <div style="border-top: 1px solid #BBBBBB;" class="mainblock">
+            <div class="date"><p>August 25-31</p></div>
+            <div class="left">
+                <h1>The first touches</h1>
+                <p>Laying the foundation, the first menu, the prototype of the cutscene, the first textures of locations and the first AI of students</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

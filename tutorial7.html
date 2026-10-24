@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yandere Simulator in 2 words site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: 'Inter';
+            box-sizing: border-box;
+            transition: all 0.3s;
+        }
+
+        body {
+            min-height: 100vh;
+        }
+
+        main {
+            position: fixed;
+            overflow-y: auto;
+            height: 100%;
+            width: calc(100% - 85px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-sizing: border-box;
+            padding-top: 120px; padding-bottom: 100px;
+            right: 0;
+        }
+
+        header {
+            position: fixed;
+            background: white;
+            left: 0; top: 0; bottom: 0;
+            width: 85px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 28px;
+            border-right: 1px solid #DDDDDD;
+
+            & a {
+                font-family: 'Oswald';
+                color: #8B8289;
+                width: auto;
+                text-decoration: none;
+                font-size: 25px;
+                writing-mode: vertical-rl;
+                transform: rotate(180deg);
+                text-align: center;
+                white-space: nowrap;
+
+                &.active {
+                    color: #EE4D8C;
+                }
+            }
+        }
+
+        .hero {
+            padding-bottom: 50px;
+            width: 90%;
+            border-bottom: 1px solid #BBBBBB;
+            margin-bottom: 50px;
+
+            & h1 {
+                font-size: 60px;
+                color: black;
+                font-family: 'Oswald';
+                font-weight: 450;
+                width: 60%;
+                line-height: 1.1;
+            }
+        }
+
+        .mainblock {
+            width: 90%;
+            border: 1px solid #BBBBBB;
+            border-top: 0;
+            display: flex;
+            box-sizing: border-box;
+
+            & .left {
+                padding: 55px;
+                flex: 1;
+                margin-left: 0px;
+                
+                & h1 { font-size: 40px; }
+                & p { font-size: 25px; color: #484448; margin-top: 20px; }
+            }
+
+            & .date {
+                padding: 55px 0 55px 0;
+                height: 100%;
+                max-width: 125px;
+                & p { font-size: 50px; color: #EE4D8C; font-weight: 600; margin-top: 20px; }
+            }
+
+            & .right {
+                padding: 55px;
+                height: 100%;
+                max-width: 40%;
+                min-width: 333px;
+                border-left: 1px solid #BBBBBB;
+                aspect-ratio: 1/1;
+                background: #EE4D8C;
+                & * { color: #ffffff; }
+                & h1 { font-size: 80px; }
+                & h2 { font-size: 30px; }
+                & p { font-size: 17px; margin-top: 20px; }
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">About the game</a>
+        <a href="history.html">History</a>
+        <a class="active" href="tutorials.html">Tutorials</a>
+        <a href="characters.html">Characters</a>
+    </header>
+    <main>
+        <div class="hero">
+            <h1>How to kidnap a student?</h1>
+        </div>
+
+        <div style="border-top: 1px solid #BBBBBB;" class="mainblock">
+            
+            <div class="left">
+                <p>Get the 1st level of biology knowledge, steal a syringe and sedative from the medical room, make friends with your victim, buy and leave a note at the designated place "Gym storage", tell the victim about the note, wait, take out the syringe and press "R"</p>
+            </div>
+            <div style="padding: 0;" class="right">
+                <img style="width: 100%; height: 100%;" src="tutorial7.png" alt="">
+            </div>
+        </div>
+
+    </main>
+</body>
+</html>
